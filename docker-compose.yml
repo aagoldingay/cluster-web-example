@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app01:
+    build: './services/api'
+    ports:
+      - 8080
+  app02:
+    build: './services/api'
+    ports:
+      - 8080
+  # proxy:
+  #   build: './services/loadbalancer'
+  #   depends_on:
+  #     - app01
+  #     - app02
