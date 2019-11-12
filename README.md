@@ -1,6 +1,6 @@
 # cluster-rest-example
 
-Repo to test load balancing on a simple application
+Repo to test load balancing on a simple application.
 
 ----
 
@@ -9,6 +9,7 @@ Repo to test load balancing on a simple application
 ## To run
 
 `docker-compose pull`
+
 `docker-compose up -d` (`-d` starts in background)
 
 ### Confirm apps work
