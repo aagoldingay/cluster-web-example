@@ -14,4 +14,5 @@ Repo to test load balancing on a simple application
 ### Confirm apps work
 
 `docker ps` will reveal running containers and their ports (assigned to 8080)
+
 You may then run `curl -i localhost:<port-found-in-prev-command>`
