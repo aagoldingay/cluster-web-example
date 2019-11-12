@@ -1,4 +1,4 @@
-# cluster-rest-example
+# cluster-web-example
 
 Repo to test load balancing on a simple application.
 
