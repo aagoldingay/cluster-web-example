@@ -9,8 +9,5 @@ services:
     build: './services/api'
     ports:
       - 8080
-  # proxy:
-  #   build: './services/loadbalancer'
-  #   depends_on:
-  #     - app01
-  #     - app02
+  proxy:
+    build: './services/loadbalancer'
