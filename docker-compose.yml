@@ -11,11 +11,3 @@ services:
     build: './services/api'
     ports:
       - 8080
-  proxy:
-    container_name: proxy
-    build: './services/loadbalancer'
-    stdin_open: true
-    tty: true
-    depends_on: 
-      - app01
-      - app02
